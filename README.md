@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## GIF Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![Gif](assets/soundandlightmemorygame.gif]
+![Gif](soundandlightmemorygame.gif)
 
 
 ## Reflection Questions
