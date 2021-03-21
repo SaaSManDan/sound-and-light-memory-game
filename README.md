@@ -44,21 +44,24 @@ Here's a walkthrough of implemented user stories:
 
 
 ## Reflection Questions
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+## 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 https://www.w3schools.com/js/js_timing.asp
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+## 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+
 One challenge I encountered was creating a timer for allowing the player an allotted time (10 seconds) to guess the pattern. 
 
 In order to overcome this, I had to create a function called t which holds a setInterval() function that executes every seconds until it reaches 0 seconds. Within this setInterval function, the seconds variable decrements by 1 and a DOM innerHTML property is used to update the website/user of the decrementing timer. An if statement checks to see if the seconds have reached 0. Once it has, the clearInterval() function is used to stop the timer and the loseGame() function is executed to end the game.
 
 But for function t() to even run, a setTimeout() function executes the t() function after the entire patterned is played.
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+## 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 One question I have about web development after completing my submission is:
 Would I have been able to make the buttons move around using Javascript? A feature like this would have increased the difficulty for the player.
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+## 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 As aforementioned in question 3, I would have spent time researching how I could make the buttons move around after each pattern is played. Also, I would have attempted to figure out how to make the buttons look more like the buttons on the actual 1978 Simon toy.
 
 
